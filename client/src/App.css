@@ -3,7 +3,7 @@
 }
 
 #navbar {
-  background-color: white;
+  background-color: #242845;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -16,7 +16,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: white;
+  background-color: #242845;
   overflow: hidden;
   font-family: serif;
   width: 80%;
@@ -26,7 +26,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: #d9d9d4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,7 +36,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: white;
+  /* background-color: white; */
   color: grey;
   font-family: serif;
   /* text-decoration: underline; */

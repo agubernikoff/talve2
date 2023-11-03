@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from "./Home";
 import Navbar from "./Navbar";
-import Product from "./Product";
+import Capabilities from "./Capabilities";
 import Feature from "./Feature";
 import Contact from "./Contact";
 import About from "./About";
@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path={"/"} element={<Home />} />
-        <Route exact path={"/products"} element={<Product />} />
+        <Route exact path={"/capabilities"} element={<Capabilities />} />
         <Route exact path={"/contact"} element={<Contact />} />
         <Route exact path={"/feature"} element={<Feature />} />
         <Route exact path={"/conversions"} element={<Conversions />} />

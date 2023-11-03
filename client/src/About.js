@@ -38,7 +38,7 @@ function About() {
         </div>
       </div>
       {/* <img className="contact_banner" src={about} alt="contact-banner" /> */}
-      <h1 className="slogan">Anchor Stainless - A New Generation</h1>
+      <h1 className="slogan">Grayson Alloys - A New Generation</h1>
       <div className="about">
         {/* <div className="leftside"> */}
         {/* <div className="about-image-container">
