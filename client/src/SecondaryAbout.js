@@ -56,7 +56,7 @@ function SecondaryAbout() {
       <div className="para_hold" ref={whoP}>
         <div className="paragraph">
           <p>
-            Anchor Stainless specializes in stainless steel distribution. The
+            Greyson Alloys specializes in stainless steel distribution. The
             company was founded by Larry and Zack Talve. Together they bring
             experience, understanding, and passion to the industry. Larry has 35
             years of industry experience and expertise while Zack brings a
@@ -65,10 +65,9 @@ function SecondaryAbout() {
             us!
           </p>
           {/* <p>
-            Anchor Stainless, a stainless steel distribution company, was
+            Greyson Alloys, a stainless steel distribution company, was
             founded in 2022 with the goal of providing customers throughout the
-            United States with quality material at competitive prices. Anchor
-            Stainless stocks type 304L, 316L, and type 400 stainless with
+            United States with quality material at competitive prices. Greyson Alloys stocks type 304L, 316L, and type 400 stainless with
             thickness running from .010” to .125”.
           </p>
           <br />
@@ -76,8 +75,7 @@ function SecondaryAbout() {
             In addition, we have the capability to provide slitting and
             polishing services through our domestic and overseas partners. We
             pride ourselves on providing seamless customer service and holding
-            nothing but exceptional quality products for our customers. Anchor
-            Stainless’s office is based in Manhattan and our warehouse is
+            nothing but exceptional quality products for our customers. Greyson Alloys’ office is based in Manhattan and our warehouse is
             located in Baltimore.
           </p> */}
         </div>
@@ -89,7 +87,7 @@ function SecondaryAbout() {
       <div className="para_hold" ref={whatP}>
         <div className="paragraph">
           <p>
-            Here at Anchor Stainless we are committed to excellence in
+            Here at Greyson Alloys we are committed to excellence in
             everything we do. Whether it be customer service or our steel coils
             we can gaurantee you will only ever experience the utmost in
             quality. In terms of products, we stock type 304L, 316L, and type
@@ -115,7 +113,7 @@ function SecondaryAbout() {
           </a>
           <div style={{ width: "100%" }}>
             <p>
-              Our corportate office is located at 30 W 63rd St in Manhattan, NY.
+              Our corportate office is located at 469 7th Ave in Manhattan, NY.
               Our warehouse is located in Baltimore, MD.
             </p>
           </div>

@@ -69,7 +69,7 @@ function Contact() {
 
           <div className="contact_text_holder_2">
             <h4 className="h_line_height">Corporate Office</h4>
-            <p>30 West 63rd Street</p>
+            <p>469 7th Ave</p>
             {/* <p>Address2</p> */}
             <p>New York, NY 10023</p>
             <p>(516)-721-4603</p>

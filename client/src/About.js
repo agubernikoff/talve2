@@ -13,10 +13,10 @@ function About() {
     jobTitle: "President",
     experience: 25,
     image: larry,
-    email: "Larry@anchorstainless.com",
+    email: "Larry@greysonalloys.com",
     phone: "+1(516)-721-4603",
     blurb:
-      "Larry Talve has been in the stainless steel industry for over 35 years. Prior to Anchor Stainless, Larry was a principal owner of Franklin Stainless, which was founded in 1955 by his father Jack and uncle Mark. At Franklin, Larry oversaw all sales, production, and warehouse operations. He has extensive knowledge in slitting, leveling, and polishing. Larry grew sales exponentially after taking over the company and sold the business in 2008. Since then, Larry has worked in a variety of industries including real estate and finance. Larry’s professional career has almost entirely been dedicated to the stainless steel industry. His passion and desire for the business fueled his decision to found Anchor Stainless along with his son, Zachary.",
+      "Larry Talve has been in the stainless steel industry for over 35 years. Prior to Greyson Alloys, Larry was a principal owner of Franklin Stainless, which was founded in 1955 by his father Jack and uncle Mark. At Franklin, Larry oversaw all sales, production, and warehouse operations. He has extensive knowledge in slitting, leveling, and polishing. Larry grew sales exponentially after taking over the company and sold the business in 2008. Since then, Larry has worked in a variety of industries including real estate and finance. Larry’s professional career has almost entirely been dedicated to the stainless steel industry. His passion and desire for the business fueled his decision to found Greyson Alloys along with his son, Zachary.",
   };
   const teamMember = {
     isBoss: false,
@@ -24,10 +24,10 @@ function About() {
     jobTitle: "Vice President",
     experience: 5,
     image: zach,
-    email: "Zack@anchorstainless.com",
+    email: "Zack@greysonalloys.com",
     phone: "‭+1(516)-974-5707‬",
     blurb:
-      "Zachary attended the University of Michigan and graduated in 2018. Prior to founding Anchor Stainless, Zack has built an extensive resume in the Real Estate world. He worked as a commercial real estate broker for two years with a focus in office leasing and acquisitions. He also worked as a real estate appraiser and earned his Master’s degree in Real Estate from New York University prior to making the transition to Anchor Stainless. Zack utilized his experience in real estate sales to help transition to the role of heading up the sales team at Anchor Stainless.  His passion for the stainless steel industry stems from the family business started by his Grandfather, Jack, and continued on by Larry.  Zack, along with Larry, founded Anchor Stainless with the goal of providing efficient services and quality material to the USA stainless steel market.",
+      "Zachary attended the University of Michigan and graduated in 2018. Prior to founding Greyson Alloys, Zack has built an extensive resume in the Real Estate world. He worked as a commercial real estate broker for two years with a focus in office leasing and acquisitions. He also worked as a real estate appraiser and earned his Master’s degree in Real Estate from New York University prior to making the transition to Greyson Alloys. Zack utilized his experience in real estate sales to help transition to the role of heading up the sales team at Greyson Alloys.  His passion for the stainless steel industry stems from the family business started by his Grandfather, Jack, and continued on by Larry.  Zack, along with Larry, founded Greyson Alloys with the goal of providing efficient services and quality material to the USA stainless steel market.",
   };
   return (
     <div>
@@ -38,7 +38,7 @@ function About() {
         </div>
       </div>
       {/* <img className="contact_banner" src={about} alt="contact-banner" /> */}
-      <h1 className="slogan">Grayson Alloys - A New Generation</h1>
+      <h1 className="slogan">Greyson Alloys - A New Generation</h1>
       <div className="about">
         {/* <div className="leftside"> */}
         {/* <div className="about-image-container">
