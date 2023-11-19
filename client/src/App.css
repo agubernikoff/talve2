@@ -969,14 +969,14 @@ select {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Adjust vertical spacing between sections */
+  width: 80%;
+  margin: auto;
 }
 
 .capabilities-flex-section {
   display: flex;
   margin: auto;
-  grid-gap: 20px;
-  gap: 20px;
-  width: 50%;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
