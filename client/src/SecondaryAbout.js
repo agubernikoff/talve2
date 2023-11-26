@@ -138,7 +138,7 @@ function SecondaryAbout() {
       </div>
       <br />
       <h1 className="who" ref={what}>
-        What We Do
+        What We Do?
       </h1>
       <div className="para_hold" ref={whatP}>
         <div className="paragraph">
