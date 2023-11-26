@@ -18,10 +18,10 @@ function SecondaryAbout() {
       if (entries[0].isIntersecting) who.current.classList.add("fade-in");
     });
     observer.observe(who.current);
-    // const observer2 = new IntersectionObserver((entries) => {
-    //   if (entries[0].isIntersecting) what.current.classList.add("fade-in");
-    // });
-    // observer2.observe(what.current);
+    const observer2 = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) what.current.classList.add("fade-in");
+    });
+    observer2.observe(what.current);
     const observer3 = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) where.current.classList.add("fade-in");
     });
@@ -34,10 +34,10 @@ function SecondaryAbout() {
       if (entries[0].isIntersecting) whoP.current.classList.add("fade-up");
     });
     observer5.observe(whoP.current);
-    // const observer6 = new IntersectionObserver((entries) => {
-    //   if (entries[0].isIntersecting) whatP.current.classList.add("fade-up");
-    // });
-    // observer6.observe(whatP.current);
+    const observer6 = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) whatP.current.classList.add("fade-up");
+    });
+    observer6.observe(whatP.current);
     const observer7 = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) whereP.current.classList.add("fade-up");
     });
@@ -133,6 +133,33 @@ function SecondaryAbout() {
             Our warehouse, which is located in Baltimore, allows us to serve
             clients throughout the United States. Please navigate to our{" "}
             <a href="/contact">'Contact'</a> page to get in touch.
+          </p>
+        </div>
+      </div>
+      <br />
+      <h1 className="who" ref={what}>
+        What We Do
+      </h1>
+      <div className="para_hold" ref={whatP}>
+        <div className="paragraph">
+          <p>
+            We have the capability to supply Type 304, 304L, 305, 316, 316L, and
+            430 stainless steel materials. Our offerings include master coils,
+            slit-to-size strip coils, and cut-to-length sheets. Typically, our
+            thickness ranges from .012” to .125”. Additionally, we specialize in
+            offering specialty light gauge items and hot-rolled stainless steel
+            plates. Both of our domestic and international mill relationships
+            allow us to provide prime material at competitive prices.
+          </p>
+          <p>
+            We offer a variety of finishes, such as 2B, 2D, #3/4 polish, and
+            bright annealed.
+          </p>
+          <p>
+            Additionally, we provide our services across a wide range of
+            industries, including automotive, kitchen appliances, washroom
+            accessories, tubing manufacturers, stamping manufacturers, roll
+            forming, and medical supplies manufacturers.
           </p>
         </div>
       </div>
