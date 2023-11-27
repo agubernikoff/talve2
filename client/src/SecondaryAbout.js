@@ -34,10 +34,10 @@ function SecondaryAbout() {
       if (entries[0].isIntersecting) whoP.current.classList.add("fade-up");
     });
     observer5.observe(whoP.current);
-    const observer6 = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) whatP.current.classList.add("fade-up");
-    });
-    observer6.observe(whatP.current);
+    // const observer6 = new IntersectionObserver((entries) => {
+    //   if (entries[0].isIntersecting) whatP.current.classList.add("fade-up");
+    // });
+    // observer6.observe(whatP.current);
     const observer7 = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) whereP.current.classList.add("fade-up");
     });
@@ -105,7 +105,7 @@ function SecondaryAbout() {
       <div className="map-container3" ref={whereP}>
         <div className="map-container2">
           <a
-            href="https://www.google.com/maps/place/30+W+63rd+St.,+New+York,+NY+10023/@40.7707681,-73.981731,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f594685643:0x3e387653861d49d8!8m2!3d40.7707681!4d-73.981731"
+            href="https://www.google.com/maps/place/469+7th+Avenue,+469+Seventh+Ave,+7th+Floor,+New+York,+NY+10018/@40.7512416,-73.9932884,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-80.1308672!2d26.1423104!4e1!1m6!1m2!1s0x89c259ac2149ebcd:0xce9fcbdb630dfdc4!2s469+7th+Avenue,+469+Seventh+Ave,+7th+Floor,+New+York,+NY+10018!2m2!1d-73.9907081!2d40.7512376!3m5!1s0x89c259ac2149ebcd:0xce9fcbdb630dfdc4!8m2!3d40.7512376!4d-73.9907081!16s%2Fg%2F1z449y4fh?entry=ttu"
             target="_blank"
             rel="noreferrer"
           >
@@ -140,7 +140,7 @@ function SecondaryAbout() {
       <h1 className="who" ref={what}>
         What We Do?
       </h1>
-      <div className="para_hold" ref={whatP}>
+      {/* <div className="para_hold" ref={whatP}>
         <div className="paragraph">
           <p>
             We have the capability to supply Type 304, 304L, 305, 316, 316L, and
@@ -162,7 +162,7 @@ function SecondaryAbout() {
             forming, and medical supplies manufacturers.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

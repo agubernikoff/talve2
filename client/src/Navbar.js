@@ -27,9 +27,9 @@ function Navbar() {
         <NavLink onClick={myFunction} to="/about">
           About Us
         </NavLink>
-        {/* <NavLink onClick={myFunction} to="/capabilities">
+        <NavLink onClick={myFunction} to="/capabilities">
           Capabilities
-        </NavLink> */}
+        </NavLink>
         {/* <NavLink onClick={myFunction} to="/conversions">
           Conversion Chart
         </NavLink> */}

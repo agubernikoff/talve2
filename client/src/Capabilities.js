@@ -1,4 +1,5 @@
 import { React, useState, useEffect, useRef } from "react";
+import ship from "./ship.png";
 
 function Capabilities() {
   return (
@@ -17,12 +18,10 @@ function Capabilities() {
             <p>
               We have the ability to provide Type 304, 304L, 305, 316, 316L, and
               430 stainless steel material. We can provide master coil, slit to
-              size strip coil, and cut to length sheets.
-            </p>
-            <p>
-              Our typical thickness ranges from .012” - .125”. In addition, we
-              have the ability to offer specialty light gauge items as well as
-              hot rolled stainless steel plate.
+              size strip coil, and cut to length sheets. Our typical thickness
+              ranges from .012” - .125”. In addition, we have the ability to
+              offer specialty light gauge items as well as hot rolled stainless
+              steel plate.
             </p>
           </section>
 
@@ -53,9 +52,11 @@ function Capabilities() {
                 </ul>
               </p>
             </div>
+            <img src={ship} />
           </section>
 
           {/* Material Sourcing section */}
+
           <section className="capabilities-info-section">
             <h2>Material Sourcing</h2>
             <p>
