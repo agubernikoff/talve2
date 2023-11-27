@@ -21,7 +21,9 @@ function Capabilities() {
               size strip coil, and cut to length sheets. Our typical thickness
               ranges from .012” - .125”. In addition, we have the ability to
               offer specialty light gauge items as well as hot rolled stainless
-              steel plate.
+              steel plate. Both of our domestic and international mill
+              relationships allow us to provide prime material at competitive
+              prices.
             </p>
           </section>
 
@@ -57,13 +59,10 @@ function Capabilities() {
 
           {/* Material Sourcing section */}
 
-          <section className="capabilities-info-section">
+          {/* <section className="capabilities-info-section">
             <h2>Material Sourcing</h2>
-            <p>
-              Both of our domestic and international mill relationships allow us
-              to provide prime material at competitive prices.
-            </p>
-          </section>
+            <p></p>
+          </section> */}
         </div>
       </div>
     </div>
