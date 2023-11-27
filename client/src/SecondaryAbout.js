@@ -18,10 +18,10 @@ function SecondaryAbout() {
       if (entries[0].isIntersecting) who.current.classList.add("fade-in");
     });
     observer.observe(who.current);
-    const observer2 = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) what.current.classList.add("fade-in");
-    });
-    observer2.observe(what.current);
+    // const observer2 = new IntersectionObserver((entries) => {
+    //   if (entries[0].isIntersecting) what.current.classList.add("fade-in");
+    // });
+    // observer2.observe(what.current);
     const observer3 = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting) where.current.classList.add("fade-in");
     });
@@ -136,10 +136,10 @@ function SecondaryAbout() {
           </p>
         </div>
       </div>
-      <br />
+      {/* <br />
       <h1 className="who" ref={what}>
         What We Do?
-      </h1>
+      </h1> */}
       {/* <div className="para_hold" ref={whatP}>
         <div className="paragraph">
           <p>
