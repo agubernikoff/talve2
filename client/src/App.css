@@ -969,7 +969,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Adjust vertical spacing between sections */
-  width: 65%;
+  width: 100%;
   margin: auto;
 }
 .capabilities-flex-section > img {
@@ -979,36 +979,44 @@ select {
 .capabilities-flex-section {
   display: flex;
   margin: auto;
-  width: 100%;
+  width: 80%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 2%;
 }
 .capabilities-flex-section .capabilities-info-section {
   width: 50%;
   text-align: center;
 }
-.capabilities-info-section ul {
+.capabilities-info-flex-section ul {
   list-style-type: none; /* Remove bullets for unordered lists */
   padding-left: 0; /* Remove default padding */
 }
 
-.capabilities-info-section li {
+.capabilities-info-flex-section li {
   text-align: center;
 }
 
 /* Example for an ordered list */
-.capabilities-info-section ol {
+.capabilities-info-flex-section ol {
   list-style-type: none; /* Remove numbers for ordered lists */
   padding-left: 0; /* Remove default padding */
+}
+.cap-image {
+  width: 70%;
+  margin: auto;
 }
 
 .capabilities-info-section ol li {
   /* Additional styling for ordered list items if needed */
 }
 .capabilities-info-section {
+  width: 70%;
+  margin: auto;
 }
-
+.capabilities-info-flex-section {
+  width: 33.3%;
+}
 .pointer {
   cursor: pointer;
 }

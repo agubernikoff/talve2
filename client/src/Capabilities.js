@@ -14,22 +14,20 @@ function Capabilities() {
         <div className="capabilities-container">
           {/* Available Stainless Steel Material section */}
           <section className="capabilities-info-section">
-            <h2>Available Stainless Steel Material</h2>
+            <h2>Products</h2>
             <p>
-              We have the ability to provide Type 304, 304L, 305, 316, 316L, and
-              430 stainless steel material. We can provide master coil, slit to
-              size strip coil, and cut to length sheets. Our typical thickness
-              ranges from .012” - .125”. In addition, we have the ability to
-              offer specialty light gauge items as well as hot rolled stainless
-              steel plate. Both of our domestic and international mill
-              relationships allow us to provide prime material at competitive
-              prices.
+              We can provide master coil, slit to size strip coil, and cut to
+              length sheets. Our typical thickness ranges from .012” - .125”. In
+              addition, we have the ability to offer specialty light gauge items
+              (.004” -.011”) as well as hot rolled stainless steel plate and
+              coil. Both of our domestic and international mill relationships
+              allow us to provide prime material at competitive prices.
             </p>
           </section>
 
           {/* Finishes and Industries Serviced section */}
           <section className="capabilities-flex-section">
-            <div className="capabilities-info-section">
+            <div className="capabilities-info-flex-section">
               <h2>Finishes</h2>
               <p>
                 <ul>
@@ -40,7 +38,7 @@ function Capabilities() {
                 </ul>
               </p>
             </div>
-            <div className="capabilities-info-section">
+            <div className="capabilities-info-flex-section">
               <h2>Industries Serviced</h2>
               <p>
                 <ul>
@@ -51,12 +49,25 @@ function Capabilities() {
                   <li>Stamping manufacturers</li>
                   <li>Roll Forming</li>
                   <li>Medical supplies manufacturers</li>
+                  <li>Construction</li>
                 </ul>
               </p>
             </div>
-            <img src={ship} />
+            <div className="capabilities-info-flex-section">
+              <h2>Type</h2>
+              <p>
+                <ul>
+                  <li>304</li>
+                  <li>304L</li>
+                  <li>305</li>
+                  <li>316</li>
+                  <li>316L</li>
+                  <li>430</li>
+                </ul>
+              </p>
+            </div>
           </section>
-
+          <img className="cap-image" src={ship} />
           {/* Material Sourcing section */}
 
           {/* <section className="capabilities-info-section">
