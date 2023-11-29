@@ -2,6 +2,7 @@ import { React, useState, useEffect, useRef } from "react";
 import ship from "./ship.png";
 
 function Capabilities() {
+  const isMobile = window.innerWidth < 600;
   return (
     <div className="capabilities">
       <div className="new_banner3">
@@ -26,8 +27,37 @@ function Capabilities() {
           </section>
 
           {/* Finishes and Industries Serviced section */}
-          <section className="capabilities-flex-section">
-            <div className="capabilities-info-flex-section">
+          <section
+            className={
+              isMobile ? "mobile-cap-flex" : "capabilities-flex-section"
+            }
+          >
+            <div
+              className={
+                isMobile
+                  ? "mobile-cap-info-flex"
+                  : "capabilities-info-flex-section"
+              }
+            >
+              <h2>Grades</h2>
+              <p>
+                <ul>
+                  <li>304</li>
+                  <li>304L</li>
+                  <li>305</li>
+                  <li>316</li>
+                  <li>316L</li>
+                  <li>430</li>
+                </ul>
+              </p>
+            </div>
+            <div
+              className={
+                isMobile
+                  ? "mobile-cap-info-flex"
+                  : "capabilities-info-flex-section"
+              }
+            >
               <h2>Finishes</h2>
               <p>
                 <ul>
@@ -38,7 +68,14 @@ function Capabilities() {
                 </ul>
               </p>
             </div>
-            <div className="capabilities-info-flex-section">
+
+            <div
+              className={
+                isMobile
+                  ? "mobile-cap-info-flex"
+                  : "capabilities-info-flex-section"
+              }
+            >
               <h2>Industries Serviced</h2>
               <p>
                 <ul>
@@ -50,19 +87,6 @@ function Capabilities() {
                   <li>Roll Forming</li>
                   <li>Medical supplies manufacturers</li>
                   <li>Construction</li>
-                </ul>
-              </p>
-            </div>
-            <div className="capabilities-info-flex-section">
-              <h2>Type</h2>
-              <p>
-                <ul>
-                  <li>304</li>
-                  <li>304L</li>
-                  <li>305</li>
-                  <li>316</li>
-                  <li>316L</li>
-                  <li>430</li>
                 </ul>
               </p>
             </div>

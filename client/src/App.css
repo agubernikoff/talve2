@@ -988,7 +988,8 @@ select {
   width: 50%;
   text-align: center;
 }
-.capabilities-info-flex-section ul {
+.capabilities-info-flex-section ul,
+.mobile-cap-info-flex ul {
   list-style-type: none; /* Remove bullets for unordered lists */
   padding-left: 0; /* Remove default padding */
 }
@@ -998,7 +999,8 @@ select {
 }
 
 /* Example for an ordered list */
-.capabilities-info-flex-section ol {
+.capabilities-info-flex-section ol,
+.mobile-cap-info-flex ol {
   list-style-type: none; /* Remove numbers for ordered lists */
   padding-left: 0; /* Remove default padding */
 }
@@ -1017,6 +1019,18 @@ select {
 .capabilities-info-flex-section {
   width: 33.3%;
 }
+.mobile-cap-flex {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+.mobile-cap-info-flex {
+  width: 75%;
+}
+
 .pointer {
   cursor: pointer;
 }
