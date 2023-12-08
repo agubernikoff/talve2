@@ -31,18 +31,45 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    fetch("/emails", {
-      method: "POST",
-      body: formData,
-    }).then((r) => {
-      if (r.ok) {
-        showResult(true);
-        clearFields();
-        setTimeout(() => {
-          showResult(false);
-        }, 5000);
-      }
-    });
+    const templateParams = {
+      first_name: first,
+      last_name: last,
+      email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "service_opnnbkk", // Replace with your Service ID
+        "template_qnta5tg", // Replace with your Template ID
+        templateParams,
+        "WPUweZAoXmamBd_kZ" // Replace with your User ID
+      )
+      .then((response) => {
+        if (response.status === 200) {
+          showResult(true);
+          clearFields();
+          setTimeout(() => {
+            showResult(false);
+          }, 5000);
+        }
+      })
+      .catch((error) => {
+        console.error("Email sending failed:", error);
+      });
+
+    // fetch("/emails", {
+    //   method: "POST",
+    //   body: formData,
+    // }).then((r) => {
+    //   if (r.ok) {
+    //     showResult(true);
+    //     clearFields();
+    //     setTimeout(() => {
+    //       showResult(false);
+    //     }, 5000);
+    //   }
+    // });
   };
 
   return (
